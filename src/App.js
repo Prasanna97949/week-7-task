@@ -1,24 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import Counter from "./counter";
+import Random from "./Randomnum";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <>
+    <h1>WEEK 7 Task</h1>
+    <div id="random">
+      <h1>Random Number Generator</h1>
+      <Random></Random>
     </div>
+    <div id="counter">
+      <h1>Counter</h1>
+      <Counter></Counter>
+    </div>
+    </>
   );
 }
 
